@@ -1,5 +1,5 @@
 
-<img alt="The Beginning" src="./img.jpg" height="123px" width="100%" style="object-fit: cover">
+![The Beginning](./src/images/beautiful-sky.jpg)
 
 ```typescript
 await main(args: string[]): string[]
