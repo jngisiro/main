@@ -1,2 +1,1 @@
-# main
-# main
+# main (args: string[])
