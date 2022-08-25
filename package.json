@@ -3,9 +3,12 @@
   "version": "0.0.3",
   "module": "src/index.js",
   "scripts": {
-    "start": "bun ./src/index.ts"
+    "start": "bun ./src/arch/servers/index.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.13"
   }
 }
