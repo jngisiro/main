@@ -1,5 +1,5 @@
 
-![The Beginning](./src/images/beautiful-sky.jpg)
+![The Beginning](./src/assets/beautiful-sky.jpg)
 
 ```typescript
 await main(args: string[]): string[]
