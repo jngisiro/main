@@ -3,9 +3,16 @@
   "version": "0.0.3",
   "module": "src/index.js",
   "scripts": {
-    "start": "bun ./src/index.ts"
+    "start": "bun ./src/arch/servers/index.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
+  },
+  "dependencies": {
+    "@types/object-hash": "^2.2.1",
+    "i": "^0.3.7",
+    "npm": "^8.18.0",
+    "object-hash": "^3.0.0",
+    "uuidv4": "^6.2.13"
   }
 }
