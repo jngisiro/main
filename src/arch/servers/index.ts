@@ -1,9 +1,10 @@
-import { v4 } from 'uuid';
+import { NetworkFactory } from '../network/index';
 
-import { BlockchainFactory } from '../blockchain/index';
-import { NodeFactory } from '../blockchain/nodes/index';
+const { nodes, publicAddress } = NetworkFactory.create();
 
-const blockchain = BlockchainFactory.create();
-blockchain.addNode(NodeFactory.create(v4()));
+console.log(publicAddress);
 
-console.log(blockchain.nodes);
+nodes.forEach((node) => {
+  console.log(node.publicAddress);
+  console.log(node.valid(publicAddress));
+});
